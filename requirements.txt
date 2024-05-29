@@ -56,6 +56,7 @@ pyasn1_modules==0.4.0
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
 pyparsing==3.1.2
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-dotenv==1.0.1
 pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
 pyzmq @ file:///home/conda/feedstock_root/build_artifacts/pyzmq_1715024408309/work
 requests==2.32.2
