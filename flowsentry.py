@@ -4,7 +4,7 @@ class FlowSentry(tf.keras.Model):
 
     def __init__(self, **kwargs):
         super(FlowSentry, self).__init__(**kwargs)
-        print("testing")
+
         self.time_distributed_layers = tf.keras.Sequential([
             tf.keras.layers.TimeDistributed(tf.keras.layers.Conv2D(32, kernel_size=(3, 3), activation='relu')),
             tf.keras.layers.TimeDistributed(tf.keras.layers.MaxPooling2D(pool_size=(2, 2))),
